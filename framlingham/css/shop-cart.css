@@ -1,0 +1,184 @@
+/* woocommerce css */
+
+.woofc-inner { font-family: 'Montserrat'; }
+.woofc-inner a.woofc-checkout, .woofc-inner a.woofc-checkout:hover, 
+.woofc-cart-open .woofc-inner .woofc-header { background: #94b8bb !important; }
+.woofc-title { color:#fff !important; font-size: 12px !important; font-family: "Montserrat" !important; }
+.woofc-inner .woofc-product-title a { color: #50332d !important; }
+.woofc-inner .woofc-price { font-size: 12px; width: 40%; }
+.woofc-inner .woofc-product-title { width: 60%; font-family: "Montserrat"; font-size: 14px; font-style: normal; line-height: 15px; padding: 16px 0; text-transform: uppercase; font-weight: 400; }
+.woofc-delete-item:hover { color:#50332d !important; }
+.woofc-inner .woofc-quantity input { color:#50332d; background-color: #fff; }
+.woofc-cart-open .woofc-inner .woofc-body { background: #fff; color: #50332d; padding-top: 0; }
+.woofc-cart-open .woofc-inner .woofc-body .woofc-list li.woofc-product { padding: 10px; border-bottom: 1px solid #94b8bb; margin-bottom: 0; }
+.woofc-cart-open .woofc-inner .woofc-body .woofc-list li:nth-child(odd) { background-color:#e6f1f3; }
+.woofc-trigger .woofc-count { background: #188087; }
+.woofc-checkout.woofc-btn { font-size: 14px !important; }
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 30%; }
+.woocommerce ul.products li.product:first-child { margin-left: 12px; }
+/*.add_to_cart_button.ajax_add_to_cart, .woocommerce-checkout-payment .button { 
+	background-color: #188087 !important; 
+	color:#fff !important; 
+	font-family: 'Montserrat'; 
+	font-weight: 400 !important; 
+	text-transform:uppercase;
+	letter-spacing:1.5px; 
+}*/
+
+.woocommerce .quantity .qty { height: 44px; }
+
+
+@media only screen and (max-width: 767px) {
+ .woocommerce ul.products li.product, .woocommerce-page ul.products li.product { width: 100%; }
+ .woocommerce ul.products li.product:first-child { margin-left: 0; }
+}
+
+.woofc{display: none!important;}
+.woocommerce .woofc{display: block!important;}
+
+/*====================================================
+[Button style]
+====================================================*/
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    font-family: 'Montserrat';
+	background-color: #188087;
+    background-image: none;
+    border: 0 none;
+    border-radius:0px;
+    box-shadow: none;
+    color: #FFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 100%;
+    font-weight: 400;
+    left: auto;
+    line-height: 1;
+    margin: 0;
+    overflow: visible;
+    padding:16px 15px;
+    position: relative;
+    text-decoration: none;
+    text-shadow: none;
+    white-space: nowrap;
+	text-transform:uppercase;
+	letter-spacing:1.5px;
+}
+.woocommerce input.button { background:rgba(24,128,135,0.7); }
+#coupon_code.input-text { width: 100px; text-align: center; }
+.woocommerce-message { border-top-color: #50332d; line-height: 48px; font-style: italic; }
+.woocommerce-message::before { color: #50332d; }
+.woocommerce-message a { font-style: normal; }
+.related.products { margin-top: 25px; }
+.related.products h2 { border-top: 1px solid #91c0c9; border-bottom: 1px solid #91c0c9;}
+
+
+.woocommerce #respond input#submit:hover, .woocommerce a.button:hover, .woocommerce button.button:hover, .woocommerce input.button:hover {
+	background-color:rgba(24,128,135,0.7);
+	color:#FFF;
+}
+
+.woocommerce #respond input#submit.disabled, .woocommerce #respond input#submit:disabled, .woocommerce #respond input#submit[disabled]:disabled, .woocommerce a.button.disabled, .woocommerce a.button:disabled, .woocommerce a.button[disabled]:disabled, .woocommerce button.button.disabled, .woocommerce button.button:disabled, .woocommerce button.button[disabled]:disabled, .woocommerce input.button.disabled, .woocommerce input.button:disabled, .woocommerce input.button[disabled]:disabled {
+	color:#FFF;
+	padding:16px 15px;
+}
+
+.woocommerce #respond input#submit.disabled:hover, .woocommerce #respond input#submit:disabled:hover, .woocommerce #respond input#submit[disabled]:disabled:hover, .woocommerce a.button.disabled:hover, .woocommerce a.button:disabled:hover, .woocommerce a.button[disabled]:disabled:hover, .woocommerce button.button.disabled:hover, .woocommerce button.button:disabled:hover, .woocommerce button.button[disabled]:disabled:hover, .woocommerce input.button.disabled:hover, .woocommerce input.button:disabled:hover, .woocommerce input.button[disabled]:disabled:hover {
+	color:#FFF;
+	background-color:rgba(24,128,135,1);
+}
+
+#add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+	font-size: 100%;
+	padding:16px 15px;
+	background-color:rgba(24,128,135,1);
+}
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+	font-size: 100%;
+	padding:16px 15px;
+	background-color:rgba(24,128,135,1);
+}
+
+.woocommerce #respond input#submit.alt:hover, .woocommerce a.button.alt:hover, .woocommerce button.button.alt:hover, .woocommerce input.button.alt:hover {
+	background-color:rgba(24,128,135,0.7);
+	color:#FFF;
+}
+
+.featured-image-panel .woocommerce table tbody tr td span { display:inline; }
+
+/*====================================================================
+[woo-layout]
+=====================================================================*/
+.woocommerce ul.products li.product, .woocommerce-page ul.products li.product {
+	text-align:center;
+}
+.woocommerce ul.products li.product a img { margin:0 0 0.5em; }
+.woocommerce ul.products li.product .button { margin:0.5em; }
+.woocommerce ul.products li.product h3 { font-size:1.5em; }
+.woocommerce ul.products li.product .price { font-size:22px; }
+.woocommerce a.added_to_cart { display:block; }
+.woocommerce-cart table.cart td.actions .coupon .input-text { padding:16px 6px;}
+.woocommerce-shipping-fields h3 { color:rgb(81, 53, 40); }
+
+/*================================================
+[Checkout form]
+================================================*/
+.woocommerce form .form-row input.input-text, .woocommerce form .form-row textarea {
+	font-family: inherit;
+    font-size: inherit;
+	letter-spacing: normal;
+    padding:0.45em 0;
+    text-indent: 0.25em;
+	border:1px solid rgb(216, 214, 210);
+}
+
+/*================================================
+17.02.21
+================================================*/
+
+.woocommerce div.product .stock.in-stock{
+	position:relative; 
+	padding-left:23px;
+}
+.woocommerce div.product .stock.in-stock:before{
+	position:absolute;
+	content: '';
+	background:url(../images/smiley.png) no-repeat;
+	top: 6px;
+	left: 0px;
+	display: block;
+	height: 14px;
+	width: 15px;
+	background-size: contain;
+}
+/*chrome hack*/
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	.woocommerce .quantity .qty {height: 42px;}	
+}
+@media only screen and (max-width: 768px) {
+	.woocommerce .woocommerce-error .button, .woocommerce-info .button, .woocommerce-message .button {
+    float: none;
+    display: block !important;
+    width: 122px;
+}
+.woocommerce .woocommerce-message {
+	line-height:20px;
+	padding: 1em 1em 1em 2em !important;
+}
+.woocommerce #respond input#submit, .woocommerce a.button, .woocommerce button.button, .woocommerce input.button {
+    margin-bottom: 15px;
+}
+.woocommerce .woocommerce-error::before, .woocommerce-info::before, .woocommerce-message::before {
+	top: 14px;
+	left: 4px;
+}
+}
+@media only screen and (max-width: 580px) {
+	.woocommerce h1 {font-size: 24px; line-height: 34px;}
+}
+@media only screen and (max-width: 460px) {
+	.woocommerce div.product .stock.in-stock { text-align:left !important;}
+	.woocommerce.single-product .article-type1 {text-align:left !important;}
+}
+@media only screen and (max-width: 353px) {
+	.woocommerce .cart .single_add_to_cart_button {font-size:11px !important; line-height:15.5px;}
+}
